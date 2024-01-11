@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+  }
+  
+  body {
+    background-color: #B0926A;
+  }
+  .menu {
+    margin-left: 1400px;
+    padding-top: 55px;
+    font-size: 20px;
+  }
+  
+  .menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu ul li a:hover {
+    color: #994D1C;
+    font-style: italic;
+    font-size: 20px;
+  }
+  .banner {
+    height: 100px;
+    text-align: center;
+    color: white;
+  }
+  
+  .servicess {
+    font-size: 30px;
+    text-align: left ;
+    padding-left: 30px;
+  }
+  
+  .servicess button {
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+  }
+  
+  .servicess button:hover {
+    background-color: #A9907E;
+    border: 2px solid white;
+    color: #675D50 ;
+  }
+  
+  .merk h1 {
+    background-color: #994D1C;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .merk h2 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .merk {
+    text-align: center;
+    margin-top: 40px;
+    align-content: center;
+    padding: 10px 5px 5px 10px;
+    width: 100%;
+    height: 60px;
+  }
+   
+  .box-kiri,
+  .box-tegah,
+  .box-kanan,
+  .box-kiri,
+  .box-tengah {
+    width: 500px;
+    height: 450px;
+    background-color: #BBAB8C;
+    text-align: center;
+    padding: 70px 70px;
+    margin: 70px 40px 40px 150px;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .box-kiri:hover,
+  .box-tegah:hover,
+  .box-kanan:hover,
+  .box-kiri:hover,
+  .box-tengah:hover {
+    background-color: #6B240C;
+    color: #000;
+  }
+   
+  
